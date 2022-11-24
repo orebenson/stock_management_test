@@ -9,4 +9,4 @@ To start frontend server:
 Run 'npm run dev' inside frontend folder to start development server
 
 Database currently hosted on MongoDB Atlas cloud service.
-Web server hosted locally.
+Web server deployed to https://bagsofhopepage.azurewebsites.net/

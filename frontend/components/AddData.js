@@ -41,7 +41,7 @@ function AddData() {
     }
 
     const submitData = () => {
-        const URL = "http://localhost:4000/items/"
+        const URL = "https://bagsofhope.azurewebsites.net/items"
         fetch(URL, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },

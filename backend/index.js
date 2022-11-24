@@ -70,6 +70,6 @@ app.post('/items', (req, res) => {
     return res.status(201).send('Success')
 })
 
-app.listen(4000, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log(`Server running at http://localhost:4000`)
 })

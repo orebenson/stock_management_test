@@ -15,7 +15,7 @@ function ViewData() {
     const [info, setInfo] = useState([])
     useEffect(() => {
         const fetchData = async () => {
-            const res = await fetch("http://localhost:4000/items/")
+            const res = await fetch("https://bagsofhope.azurewebsites.net/items")
             const data = await res.json()
             setInfo(data)
         }

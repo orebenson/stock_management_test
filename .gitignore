@@ -4,6 +4,7 @@ backend/node_modules/
 backend/package-lock.json
 frontend/node_modules/
 frontend/package-lock.json
+frontend/.next
 
 
 # dependencies
@@ -15,7 +16,7 @@ frontend/package-lock.json
 /coverage
 
 # next.js
-/.next/
+.next/
 /out/
 
 # production

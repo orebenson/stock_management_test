@@ -1,6 +1,8 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/stockEntry": "pages/stockEntry.js"
+  "/_error": "pages/_error.js",
+  "/stockEntry": "pages/stockEntry.js",
+  "/stockReplenish": "pages/stockReplenish.js",
+  "/": "pages/index.js"
 }

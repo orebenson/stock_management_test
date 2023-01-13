@@ -1,6 +1,7 @@
 
 import styled from 'styled-components'
 import { useState } from 'react'
+import {POST} from '../api/Fetch.js'
 
 const SForm = styled.form`
     form-box{
@@ -40,8 +41,13 @@ function AddData() {
         setInputs(values => ({ ...values, [name]: value }))
     }
 
-    const submitData = () => {
-        const URL = "https://bagsofhope.azurewebsites.net/items"
+    const submitData = e => {
+        e.preventDefault()
+        // POST(inputs);
+        
+        // const URL = "https://bagsofhopedb.azurewebsites.net/items"
+        const URL = "http://localhost:4000/items"
+
         fetch(URL, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },

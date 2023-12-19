@@ -73,6 +73,7 @@ app.put('/items/:itemid', async (req, res) => {
     const { itemid } = req.params
     const { name, quantity, date, note, expiry_date } = req.body
     const updates = {}
+    if (name) updates.name = name
     if (quantity) updates.quantity = quantity
     if (date) updates.date = date
     if (note) updates.note = note

@@ -49,6 +49,7 @@ function EditData(props){
             method: 'PUT',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
+                name: inputs.name,
                 quantity: inputs.quantity,
                 date: inputs.date,
                 note: inputs.note,
@@ -62,7 +63,8 @@ function EditData(props){
     return (
         <div>
             <SForm onSubmit={submitData}>
-                <label>Quantity <input type="number" name="quantity" value={inputs.quantity} onChange={handleChange} /></label>
+                <label>Name <input type="text" name="name" value={inputs.name} onChange={handleChange} /></label>
+                <label>Quantity <input type="number" min="0" name="quantity" value={inputs.quantity} onChange={handleChange} /></label>
                 <label>Date <input type="date" name="date" value={inputs.date} onChange={handleChange} /></label>
                 <label>Note <input type="text" name="note" value={inputs.note} onChange={handleChange} /></label>
                 <label>Expiry Date <input type="date" name="expiry_date" value={inputs.expiry_date} onChange={handleChange} /></label>

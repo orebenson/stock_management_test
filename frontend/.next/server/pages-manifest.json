@@ -2,7 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/reports": "pages/reports.js",
+  "/stockEntry": "pages/stockEntry.js",
   "/": "pages/index.js",
-  "/stockReplenish": "pages/stockReplenish.js",
-  "/stockEntry": "pages/stockEntry.js"
+  "/stockReplenish": "pages/stockReplenish.js"
 }

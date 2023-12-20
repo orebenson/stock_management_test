@@ -1,8 +1,0 @@
-{
-    "appService.zipIgnorePattern": [
-        "node_modules{,/**}",
-        ".vscode{,/**}"
-    ],
-    "appService.defaultWebAppToDeploy": "/subscriptions/a19efb2d-b9e8-4dfd-961b-1449f4b3b9c8/resourceGroups/myAzureApp20220810155921ResourceGroup/providers/Microsoft.Web/sites/bagsofhopedb",
-    "appService.deploySubpath": "backend"
-}

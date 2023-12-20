@@ -8,7 +8,7 @@ frontend/package-lock.json
 frontend/.next
 .vscode
 .vscode/*
-
+.vscode/**
 
 # dependencies
 /node_modules

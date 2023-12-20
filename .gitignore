@@ -6,6 +6,8 @@ backend/url.txt
 frontend/node_modules/
 frontend/package-lock.json
 frontend/.next
+.vscode
+.vscode/*
 
 
 # dependencies

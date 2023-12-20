@@ -9,7 +9,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-const DB_URL = 'mongodb+srv://admin:admin@cluster0.hnblpwz.mongodb.net/?retryWrites=true&w=majority'
+const DB_URL = '***********************'
 
 mongoose.connect(DB_URL)
 const db = mongoose.connection

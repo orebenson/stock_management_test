@@ -1,10 +1,12 @@
-Stock management application
+# Stock management application proof of concept
 
-To start live backend server:
+## MVP for a stock management application
+
+### To start live backend server:
 
 Run 'npx nodemon index.js' inside backend folder
 
-To start frontend server:
+### To start frontend server:
 
 Run 'npm run dev' inside frontend folder to start development server
 
